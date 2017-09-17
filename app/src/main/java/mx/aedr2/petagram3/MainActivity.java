@@ -58,12 +58,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch(item.getItemId()){
             case R.id.mContacto:
-                Intent intent = new Intent(MainActivity.this, Contacto.class);
+                intent = new Intent(MainActivity.this, Contacto.class);
                 startActivity(intent);
                 break;
             case R.id.mAbout:
+                intent = new Intent(MainActivity.this, About.class);
+                startActivity(intent);
                 break;
             case R.id.mFavoritas:
                 //irRankinGatos();

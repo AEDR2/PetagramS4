@@ -3,13 +3,17 @@
     <string name="app_name2">Petagram</string>
     <string name="cinco">5</string>
     <string name="contacto">Contacto</string>
-    <string name="about">Acerca de</string>
+    <string name="about">Acerca de...</string>
     <string name="favoritas">Mascotas favoritas</string>
     <string name="nombreContacto">Nombre</string>
     <string name="correoContacto">Correo</string>
     <string name="mensajeContacto">Mensaje</string>
     <string name="enviarBoton">Enviar mensaje</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desarrollado">Desarrollado por: </string>
+    <string name="aedr2">AEDR2</string>
+    <string name="para">Para: </string>
+    <string name="nombreCurso">Desarollo de aplicaciones con Android</string>
+    <string name="email">ale_cya@hotmail.com</string>
+    <string name="twitter">\@AEDR3335</string>
+    <string name="twitterEti">Twitter</string>
 </resources>

@@ -12,4 +12,5 @@
     <dimen name="paddingContacto">10dp</dimen>
     <dimen name="gridMiMascotaAncho">105dp</dimen>
     <dimen name="tamanoFotoCircular">100dp</dimen>
+    <dimen name="tamanoFotoCircular2">150dp</dimen>
 </resources>
