@@ -2,4 +2,14 @@
     <string name="app_name">Petagram3</string>
     <string name="app_name2">Petagram</string>
     <string name="cinco">5</string>
+    <string name="contacto">Contacto</string>
+    <string name="about">Acerca de</string>
+    <string name="favoritas">Mascotas favoritas</string>
+    <string name="nombreContacto">Nombre</string>
+    <string name="correoContacto">Correo</string>
+    <string name="mensajeContacto">Mensaje</string>
+    <string name="enviarBoton">Enviar mensaje</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

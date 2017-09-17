@@ -8,6 +8,9 @@ import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 
+import mx.aedr2.petagram3.adaptador.MascotaAdaptador;
+import mx.aedr2.petagram3.pojo.Mascota;
+
 /**
  * Created by alejandraperez on 24/08/17.
  */

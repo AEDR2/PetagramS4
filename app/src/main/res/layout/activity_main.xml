@@ -2,40 +2,31 @@
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="mx.aedr2.petagram3.MainActivity"
     android:background="@color/accent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
 
-    >
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
 
-    <RelativeLayout
+    <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+    </android.support.v4.view.ViewPager>
 
-        <include android:id="@+id/miActionBar"
-            layout="@layout/actionbar"></include>
-
-        <!--Recycler view-->
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvMascotas"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:layout_below="@+id/miActionBar"
-            android:layout_marginLeft="@dimen/margenIzquierdo"
-            android:layout_marginTop="@dimen/margenIzquierdo"
-            >
-        </android.support.v7.widget.RecyclerView>
-
-        <!--<android.support.design.widget.FloatingActionButton
-            android:layout_width ="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right"
-            android:src="@mipmap/camara"
-            android:id="@+id/fab"
-            app:backgroundTint="@color/primary">
-
-        </android.support.design.widget.FloatingActionButton>-->
-    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/secondary_text"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 </android.support.design.widget.CoordinatorLayout>

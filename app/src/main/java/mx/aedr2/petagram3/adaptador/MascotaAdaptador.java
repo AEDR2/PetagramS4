@@ -1,4 +1,4 @@
-package mx.aedr2.petagram3;
+package mx.aedr2.petagram3.adaptador;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import mx.aedr2.petagram3.pojo.Mascota;
+import mx.aedr2.petagram3.R;
 
 /**
  * Created by alejandraperez on 23/08/17.

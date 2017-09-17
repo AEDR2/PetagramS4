@@ -8,6 +8,8 @@
     <dimen name="tamanoHueso">30dp</dimen>
     <dimen name="margenIzquierdo">20dp</dimen>
     <dimen name="margenTitulo">130dp</dimen>
-    <dimen name="letraTitulo">17sp</dimen>
-
+    <dimen name="letraTitulo">19sp</dimen>
+    <dimen name="paddingContacto">10dp</dimen>
+    <dimen name="gridMiMascotaAncho">105dp</dimen>
+    <dimen name="tamanoFotoCircular">100dp</dimen>
 </resources>

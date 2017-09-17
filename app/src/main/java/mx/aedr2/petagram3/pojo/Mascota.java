@@ -1,4 +1,4 @@
-package mx.aedr2.petagram3;
+package mx.aedr2.petagram3.pojo;
 
 /**
  * Created by alejandraperez on 23/08/17.
