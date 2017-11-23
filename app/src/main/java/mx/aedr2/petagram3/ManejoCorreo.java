@@ -16,8 +16,8 @@ import javax.mail.internet.MimeMessage;
  */
 public class ManejoCorreo {
     private String nombrePersona, mensajePersona, correoPersona;
-    private final String correoPersonal = "alecya@gmail.com";
-    private final String contrasenaPersonal = "320464Ivan";
+    private final String correoPersonal = "tucorreo";
+    private final String contrasenaPersonal = "contrasena";
 
 
     public ManejoCorreo(String nombrePersona, String mensajePersona, String correoPersona) {
